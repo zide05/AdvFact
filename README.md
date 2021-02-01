@@ -8,7 +8,7 @@ Six representative factuality checkers included in the paper are as follows:
 * **BertMnli, RobertaMnli, ElectraMnli:** the codes are included in [baseline](./baseline) and the trained models can be downloaded [here](https://drive.google.com/drive/u/1/folders/1wg9jHrO90_t85ymRFBi7l6o4U7_fij_s).
 * **Feqa:** the codes and trained model can be downloaded from [https://github.com/esdurmus/feqa](https://github.com/esdurmus/feqa).
 
-![](./figs/checkers.png)
+![Detailed information for Factuality metrics](./figs/checkers.png)
 
 ## Adversarial transformation codes
 The codes of adversarial transformations are in the directory of [adversarial transformation](./adversarial transformation). To make adversarial transformation, please run the following commands:
@@ -32,7 +32,7 @@ Six base evaluation datasets and four adversarial transformations are included i
     - Entity Replacement
     - Syntactic Pruning
 
-![this](https://github.com/slkjoweiefhuir/AdvFact/blob/main/figs/human_annotated_eval_set.png)
+![Detailed information for base test sets](https://github.com/slkjoweiefhuir/AdvFact/blob/main/figs/human_annotated_eval_set.png)
 
 Every adversarial transformation can be performed on the six base evaluation datasets, thus results in 24 diagnostic evaluation set. All base evaluation datasets and diagnostic evaluation sets can be found [here](https://drive.google.com/drive/u/1/folders/1inYZnSkxj1JfgHHpR2OjfNXpT-SFc24p).
 

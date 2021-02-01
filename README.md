@@ -16,9 +16,9 @@ Every adversarial transformation can be performed on the six base evaluation dat
 ## Augmented training data
 The augmented training data can be downloaded [here]().
 ## Factuality metrics
-    - FactCC: the codes and original FactCC can be downloaded from [](https://github.com/salesforce/factCC). The four FactCCs trained with sub sampling and augmented data can be down loaded from [here]().
-    - Dae: the codes and trained model can be downloaded from [](https://github.com/tagoyal/dae-factuality).
-    - BertMnli, RobertaMnli, ElectraMnli codes are included in xxx and the trained models can be downloaded [here]().
-    - Feqa: the codes and trained model can be downloaded from [](https://github.com/esdurmus/feqa).
+* FactCC: the codes and original FactCC can be downloaded from [](https://github.com/salesforce/factCC). The four FactCCs trained with sub sampling and augmented data can be down loaded from [here]().
+* Dae: the codes and trained model can be downloaded from [](https://github.com/tagoyal/dae-factuality).
+* BertMnli, RobertaMnli, ElectraMnli codes are included in xxx and the trained models can be downloaded [here]().
+* Feqa: the codes and trained model can be downloaded from [](https://github.com/esdurmus/feqa).
 ## Error analysis samples
 The samples that are misclassified by the FactCC can be downloaded [here]()

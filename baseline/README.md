@@ -1,5 +1,8 @@
-Codes to train Mnli transferred models
+Mnli transferred models
 ===========================================
 
+### Train
+
+### Test
 
 

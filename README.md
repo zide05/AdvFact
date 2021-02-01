@@ -21,4 +21,4 @@ The augmented training data can be downloaded [here]().
 * BertMnli, RobertaMnli, ElectraMnli codes are included in xxx and the trained models can be downloaded [here]().
 * Feqa: the codes and trained model can be downloaded from [](https://github.com/esdurmus/feqa).
 ## Error analysis samples
-The samples that are misclassified by the FactCC can be downloaded [here]()
+The samples that are misclassified by the FactCC can be downloaded [here](https://drive.google.com/drive/u/1/folders/18mEXHoTeYugrSHzbOGEZwZXAaNwClB3k)

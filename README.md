@@ -9,6 +9,7 @@ Six representative factuality checkers included in the paper are as follows:
 * **Feqa:** the codes and trained model can be downloaded from [https://github.com/esdurmus/feqa](https://github.com/esdurmus/feqa).
 
 ![this](https://github.com/slkjoweiefhuir/AdvFact/blob/main/figs/factuality_checkers.png)
+![ScreenShot](/figs/factuality_checkers.png)
 
 ## Adversarial transformation codes
 The codes of adversarial transformations are in the directory of [adversarial transformation](./adversarial transformation). To make adversarial transformation, please run the following commands:

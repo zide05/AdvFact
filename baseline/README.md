@@ -1,5 +1,7 @@
 MNLI Transferred Models
 ===========================================
+We modify the code from [the text classification code from transformers examples](https://github.com/huggingface/transformers/tree/master/examples/text-classification).
+
 
 ### Train
 The training commands are as follows: 
@@ -21,5 +23,5 @@ The testing commands are as follows:
 ```python
 CUDA_VISIBLE_DEVICES=0 python ./baseline/roberta_bert_electra.py --model_name_or_path CHECKPOINT_DIR --do_eval --do_predict --max_seq_length 512 --output_dir OUTPUT_DIR --train_file TRAIN_FILE --validation_file VALIDATION_FILE --cache_dir CACHE_DIR
 ```
-
+Rplace the OUTPUT_DIR, TRAIN_FILE, VALIDATION_FILE, CACHE_DIR with your own files and directories. OUTPUT_DIR here is the directory to save evaluation output.
 

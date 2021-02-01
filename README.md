@@ -20,7 +20,7 @@ The augmented training data can be downloaded [here](https://drive.google.com/dr
 ## Factuality metrics
 * **FactCC:** the codes and original FactCC can be downloaded from [https://github.com/salesforce/factCC](https://github.com/salesforce/factCC). The four FactCCs trained with sub sampling and augmented data can be down loaded from [here](https://drive.google.com/drive/u/1/folders/1wg9jHrO90_t85ymRFBi7l6o4U7_fij_s).
 * **Dae:** the codes and trained model can be downloaded from [https://github.com/tagoyal/dae-factuality](https://github.com/tagoyal/dae-factuality).
-* **BertMnli, RobertaMnli, ElectraMnli:** the codes are included in xxx and the trained models can be downloaded [here](https://drive.google.com/drive/u/1/folders/1wg9jHrO90_t85ymRFBi7l6o4U7_fij_s).
+* **BertMnli, RobertaMnli, ElectraMnli:** the codes are included in [./baseline](./baseline) and the trained models can be downloaded [here](https://drive.google.com/drive/u/1/folders/1wg9jHrO90_t85ymRFBi7l6o4U7_fij_s).
 * **Feqa:** the codes and trained model can be downloaded from [https://github.com/esdurmus/feqa](https://github.com/esdurmus/feqa).
 ## Error analysis samples
 The samples that are misclassified by the FactCC can be downloaded [here](https://drive.google.com/drive/u/1/folders/18mEXHoTeYugrSHzbOGEZwZXAaNwClB3k)

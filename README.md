@@ -8,6 +8,50 @@ Six representative factuality checkers included in the paper are as follows:
 * **BertMnli, RobertaMnli, ElectraMnli:** the codes are included in [baseline](./baseline) and the trained models can be downloaded [here](https://drive.google.com/drive/u/1/folders/1wg9jHrO90_t85ymRFBi7l6o4U7_fij_s).
 * **Feqa:** the codes and trained model can be downloaded from [https://github.com/esdurmus/feqa](https://github.com/esdurmus/feqa).
 
+The table below represents the 6 factuality metrics and their model types as well as training datas.
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-za14">Models</th>
+    <th class="tg-za14">Type</th>
+    <th class="tg-za14">Train data</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-za14">MnliBert</td>
+    <td class="tg-za14">NLI-S</td>
+    <td class="tg-za14">MNLI</td>
+  </tr>
+  <tr>
+    <td class="tg-za14">MnliRoberta</td>
+    <td class="tg-za14">NLI-S</td>
+    <td class="tg-za14">MNLI</td>
+  </tr>
+  <tr>
+    <td class="tg-za14">MnliElectra</td>
+    <td class="tg-za14">NLI-S</td>
+    <td class="tg-za14">MNLI</td>
+  </tr>
+  <tr>
+    <td class="tg-za14">Dae</td>
+    <td class="tg-za14">NLI-A</td>
+    <td class="tg-za14">PARANMT-G</td>
+  </tr>
+  <tr>
+    <td class="tg-za14">FactCC</td>
+    <td class="tg-za14">NLI-S</td>
+    <td class="tg-za14">CNNDM-G</td>
+  </tr>
+  <tr>
+    <td class="tg-za14">Feqa</td>
+    <td class="tg-za14">QA</td>
+    <td class="tg-za14">QA2D,SQuAD</td>
+  </tr>
+</tbody>
+</table>
+**The model type and training data of factuality metrics.** NLI-A and NLI-S represent the model belongs to NLI-based metrics while defining facts as dependency arcs and span respectively. PARANMT-G  and CNNDM-G mean the automatically generated training data from PARANMT and CNN/DailyMail.
+
 
 ## Adversarial transformation codes
 The codes of adversarial transformations are in the directory of [adversarial transformation](./adversarial transformation). To make adversarial transformation, please run the following commands:
@@ -120,7 +164,7 @@ Every adversarial transformation can be performed on the six base evaluation dat
 </tbody>
 </table>
 
-Table 1. The detailed statistics of baseline (left) and diagnostic (right) test sets. For baseline test sets in the left, dataset type means the dataset that source document and summary belong to. Here, CNNDM means CNN/DailyMail dataset. Nov.(%) means the proportion of trigrams in claims that don't exist in source documents. #Sys. and #Sam. represent the number of summarization systems that the output summaries come from and the test set size respectively. For diagnostic test sets on the right, all cells mean the sample size of the sets.
+**The detailed statistics of baseline (left) and diagnostic (right) test sets.** For baseline test sets in the left, dataset type means the dataset that source document and summary belong to. Here, CNNDM means CNN/DailyMail dataset. Nov.(%) means the proportion of trigrams in claims that don't exist in source documents. #Sys. and #Sam. represent the number of summarization systems that the output summaries come from and the test set size respectively. For diagnostic test sets on the right, all cells mean the sample size of the sets.
 
 ## Error analysis samples
 The 140 samples that are misclassified by the FactCC are in the directory: [data](./data)

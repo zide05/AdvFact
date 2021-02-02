@@ -50,6 +50,7 @@ The table below represents the 6 factuality metrics and their model types as wel
   </tr>
 </tbody>
 </table>
+
 **The model type and training data of factuality metrics.** NLI-A and NLI-S represent the model belongs to NLI-based metrics while defining facts as dependency arcs and span respectively. PARANMT-G  and CNNDM-G mean the automatically generated training data from PARANMT and CNN/DailyMail.
 
 

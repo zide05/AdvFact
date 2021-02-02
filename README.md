@@ -31,7 +31,7 @@ Six base evaluation datasets and four adversarial transformations are included i
     - Entity Replacement
     - Syntactic Pruning
 
-<div style='margin:auto;'>
+Every adversarial transformation can be performed on the six base evaluation datasets, thus results in 24 diagnostic evaluation set. All base evaluation datasets and diagnostic evaluation sets can be found [here](https://drive.google.com/drive/u/1/folders/1inYZnSkxj1JfgHHpR2OjfNXpT-SFc24p). The detailed information for 6 baseline test sets and 24 diagnostic sets is shown in the table below (For baseline test sets in the left, dataset type means the dataset that source document and summary belong to. Here, CNNDM means CNN/DailyMail dataset. Nov.(%) means the proportion of trigrams in claims that don't exist in source documents. #Sys. and #Sam. represent the number of summarization systems that the output summaries come from and the test set size respectively. For diagnostic test sets on the right, all cells mean the sample size of the sets.) :
 <table class="tg">
 <thead>
   <tr>
@@ -40,7 +40,7 @@ Six base evaluation datasets and four adversarial transformations are included i
     <th class="tg-c3ow" colspan="4">Adversarial   Transformation</th>
   </tr>
   <tr>
-    <td class="tg-c3ow">Type</td>
+    <td class="tg-c3ow">Dataset type</td>
     <td class="tg-c3ow">Nov.</td>
     <td class="tg-c3ow">#Sys.</td>
     <td class="tg-c3ow">#Sam.</td>
@@ -119,10 +119,6 @@ Six base evaluation datasets and four adversarial transformations are included i
   </tr>
 </tbody>
 </table>
-</div>
-
-
-Every adversarial transformation can be performed on the six base evaluation datasets, thus results in 24 diagnostic evaluation set. All base evaluation datasets and diagnostic evaluation sets can be found [here](https://drive.google.com/drive/u/1/folders/1inYZnSkxj1JfgHHpR2OjfNXpT-SFc24p).
 
 ## Error analysis samples
 The 140 samples that are misclassified by the FactCC are in the directory: [data](./data)

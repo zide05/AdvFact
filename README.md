@@ -57,7 +57,7 @@ The table below represents the 6 factuality metrics and their model types as wel
 ## Adversarial transformation codes
 The codes of adversarial transformations are in the directory of [adversarial transformation](./adversarial_transformation). To make adversarial transformation, please run the following commands:
 ```python
-CUDA_VISIBLE_DEVICES=0 python main.py -path DATA_PATH -save_dir SAVE_DIR -trans_type all
+CUDA_VISIBLE_DEVICES=0 python ./adversarial_transformation/main.py -path DATA_PATH -save_dir SAVE_DIR -trans_type all
 ```
 Change the DATA_PATH and SAVE_DIR to your own data path and save directory.
 

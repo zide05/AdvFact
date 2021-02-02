@@ -76,7 +76,7 @@ Six base evaluation datasets and four adversarial transformations are included i
     - Entity Replacement
     - Syntactic Pruning
 
-Every adversarial transformation can be performed on the six base evaluation datasets, thus results in 24 diagnostic evaluation set. All base evaluation datasets and diagnostic evaluation sets can be found [here](https://drive.google.com/drive/u/1/folders/1inYZnSkxj1JfgHHpR2OjfNXpT-SFc24p). The detailed information for 6 baseline test sets and 24 diagnostic sets is shown in the table below :
+Every adversarial transformation can be performed on the six base evaluation datasets, thus results in 24 diagnostic evaluation set. All base evaluation datasets and diagnostic evaluation sets can be found [here](https://drive.google.com/drive/u/1/folders/1inYZnSkxj1JfgHHpR2OjfNXpT-SFc24p). The detailed information for *6 baseline test sets and 24 diagnostic sets* is shown in the table below :
 <table class="tg">
 <thead>
   <tr>

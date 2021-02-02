@@ -8,7 +8,6 @@ Six representative factuality checkers included in the paper are as follows:
 * **BertMnli, RobertaMnli, ElectraMnli:** the codes are included in [baseline](./baseline) and the trained models can be downloaded [here](https://drive.google.com/drive/u/1/folders/1wg9jHrO90_t85ymRFBi7l6o4U7_fij_s).
 * **Feqa:** the codes and trained model can be downloaded from [https://github.com/esdurmus/feqa](https://github.com/esdurmus/feqa).
 
-![Detailed information for Factuality metrics](./figs/checkers.png)
 
 ## Adversarial transformation codes
 The codes of adversarial transformations are in the directory of [adversarial transformation](./adversarial transformation). To make adversarial transformation, please run the following commands:
@@ -32,7 +31,17 @@ Six base evaluation datasets and four adversarial transformations are included i
     - Entity Replacement
     - Syntactic Pruning
 
-![Detailed information for base test sets](https://github.com/slkjoweiefhuir/AdvFact/blob/main/figs/human_annotated_eval_set.png)
+
+| Base Test Sets | Origin |       |       |       | Adversarial   Transformation |         |        |         |
+|:--------------:|:------:|:-----:|:-----:|:-----:|:----------------------------:|:-------:|:------:|:-------:|
+|                |  Type  |  Nov. | #Sys. | #Sam. |            AntoSub           | NumEdit | EntRep | SynPrun |
+| DocAsClaim     | CNNDM  | 0 .0  |   0   | 11490 |             26487            |  25283  |  6816  |   9533  |
+| RefAsClaim     | CNNDM  |  77.7 |   0   | 10000 |             14131            |  11621  |  28758 |   4572  |
+| FaccTe         | CNNDM  |   54  |   10  |  503  |              670             |   515   |   440  |   245   |
+| QagsC          | CNNDM  |  28.6 |   1   |  504  |              711             |   615   |   539  |   351   |
+| RankTe         | CNNDM  |  52.5 |   3   |  1072 |             1646             |   1310  |   767  |   540   |
+| FaithFact      |  XSum  |  99.2 |   5   |  2332 |              363             |    94   |   114  |   118   |
+
 
 Every adversarial transformation can be performed on the six base evaluation datasets, thus results in 24 diagnostic evaluation set. All base evaluation datasets and diagnostic evaluation sets can be found [here](https://drive.google.com/drive/u/1/folders/1inYZnSkxj1JfgHHpR2OjfNXpT-SFc24p).
 

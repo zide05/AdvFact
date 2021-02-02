@@ -3,9 +3,9 @@ The directory contains trained models, diagnostic test sets and augmented traini
 
 ## Factuality metrics
 Six representative factuality checkers included in the paper are as follows: 
-* **FactCC:** the codes and original FactCC can be downloaded from [https://github.com/salesforce/factCC](https://github.com/salesforce/factCC). The four FactCCs trained with sub sampling and augmented data can be downloaded from [here](https://drive.google.com/drive/u/1/folders/1wg9jHrO90_t85ymRFBi7l6o4U7_fij_s).
+* **FactCC:** the codes and original FactCC can be downloaded from [https://github.com/salesforce/factCC](https://github.com/salesforce/factCC). The four FactCCs trained with sub sampling and augmented data can be downloaded from [here](https://drive.google.com/drive/folders/1wg9jHrO90_t85ymRFBi7l6o4U7_fij_s?usp=sharing).
 * **Dae:** the codes and trained model can be downloaded from [https://github.com/tagoyal/dae-factuality](https://github.com/tagoyal/dae-factuality).
-* **BertMnli, RobertaMnli, ElectraMnli:** the codes are included in [baseline](./baseline) and the trained models can be downloaded [here](https://drive.google.com/drive/u/1/folders/1wg9jHrO90_t85ymRFBi7l6o4U7_fij_s).
+* **BertMnli, RobertaMnli, ElectraMnli:** the codes are included in [baseline](./baseline) and the trained models can be downloaded [here](https://drive.google.com/drive/folders/1wg9jHrO90_t85ymRFBi7l6o4U7_fij_s?usp=sharing).
 * **Feqa:** the codes and trained model can be downloaded from [https://github.com/esdurmus/feqa](https://github.com/esdurmus/feqa).
 
 The table below represents the 6 factuality metrics and their model types as well as training datas.
@@ -76,7 +76,7 @@ Six base evaluation datasets and four adversarial transformations are included i
     - Entity Replacement
     - Syntactic Pruning
 
-Every adversarial transformation can be performed on the six base evaluation datasets, thus results in 24 diagnostic evaluation set. All base evaluation datasets and diagnostic evaluation sets can be found [here](https://drive.google.com/drive/u/1/folders/1inYZnSkxj1JfgHHpR2OjfNXpT-SFc24p). The detailed information for *6 baseline test sets and 24 diagnostic sets* is shown in the table below :
+Every adversarial transformation can be performed on the six base evaluation datasets, thus results in 24 diagnostic evaluation set. All base evaluation datasets and diagnostic evaluation sets can be found [here](https://drive.google.com/drive/folders/1inYZnSkxj1JfgHHpR2OjfNXpT-SFc24p?usp=sharing). The detailed information for *6 baseline test sets and 24 diagnostic sets* is shown in the table below :
 <table class="tg">
 <thead>
   <tr>
@@ -171,6 +171,6 @@ Every adversarial transformation can be performed on the six base evaluation dat
 The 140 samples that are misclassified by the FactCC are in the directory: [data](./data)
 
 ## Augmented training data
-The augmented training data can be downloaded [here](https://drive.google.com/drive/u/1/folders/1lrqfrubEhRECjHM9SooeGABJ4-FW5bAR).
+The augmented training data can be downloaded [here](https://drive.google.com/drive/folders/1lrqfrubEhRECjHM9SooeGABJ4-FW5bAR?usp=sharing).
 
 

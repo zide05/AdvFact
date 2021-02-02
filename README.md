@@ -32,15 +32,102 @@ Six base evaluation datasets and four adversarial transformations are included i
     - Syntactic Pruning
 
 
-| Base Test Sets | Origin |       |       |       | Adversarial   Transformation |         |        |         |
-|:--------------:|:------:|:-----:|:-----:|:-----:|:----------------------------:|:-------:|:------:|:-------:|
-|                |  Type  |  Nov. | #Sys. | #Sam. |            AntoSub           | NumEdit | EntRep | SynPrun |
-| DocAsClaim     | CNNDM  | 0 .0  |   0   | 11490 |             26487            |  25283  |  6816  |   9533  |
-| RefAsClaim     | CNNDM  |  77.7 |   0   | 10000 |             14131            |  11621  |  28758 |   4572  |
-| FaccTe         | CNNDM  |   54  |   10  |  503  |              670             |   515   |   440  |   245   |
-| QagsC          | CNNDM  |  28.6 |   1   |  504  |              711             |   615   |   539  |   351   |
-| RankTe         | CNNDM  |  52.5 |   3   |  1072 |             1646             |   1310  |   767  |   540   |
-| FaithFact      |  XSum  |  99.2 |   5   |  2332 |              363             |    94   |   114  |   118   |
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-c3ow" rowspan="2">Base Test Sets</th>
+    <th class="tg-c3ow" colspan="4">Origin</th>
+    <th class="tg-c3ow" colspan="4">Adversarial   Transformation</th>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Type</td>
+    <td class="tg-c3ow">Nov.</td>
+    <td class="tg-c3ow">#Sys.</td>
+    <td class="tg-c3ow">#Sam.</td>
+    <td class="tg-c3ow">AntoSub</td>
+    <td class="tg-c3ow">NumEdit</td>
+    <td class="tg-c3ow">EntRep</td>
+    <td class="tg-c3ow">SynPrun</td>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">DocAsClaim</td>
+    <td class="tg-c3ow">CNNDM </td>
+    <td class="tg-c3ow">0 .0 </td>
+    <td class="tg-c3ow">0</td>
+    <td class="tg-c3ow">11490</td>
+    <td class="tg-c3ow">26487</td>
+    <td class="tg-c3ow">25283</td>
+    <td class="tg-c3ow">6816</td>
+    <td class="tg-c3ow">9533</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">RefAsClaim</td>
+    <td class="tg-c3ow">CNNDM </td>
+    <td class="tg-c3ow">77.7</td>
+    <td class="tg-c3ow">0</td>
+    <td class="tg-c3ow">10000</td>
+    <td class="tg-c3ow">14131</td>
+    <td class="tg-c3ow">11621</td>
+    <td class="tg-c3ow">28758</td>
+    <td class="tg-c3ow">4572</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">FaccTe</td>
+    <td class="tg-c3ow">CNNDM </td>
+    <td class="tg-c3ow">54</td>
+    <td class="tg-c3ow">10</td>
+    <td class="tg-c3ow">503</td>
+    <td class="tg-c3ow">670</td>
+    <td class="tg-c3ow">515</td>
+    <td class="tg-c3ow">440</td>
+    <td class="tg-c3ow">245</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">QagsC</td>
+    <td class="tg-c3ow">CNNDM </td>
+    <td class="tg-c3ow">28.6</td>
+    <td class="tg-c3ow">1</td>
+    <td class="tg-c3ow">504</td>
+    <td class="tg-c3ow">711</td>
+    <td class="tg-c3ow">615</td>
+    <td class="tg-c3ow">539</td>
+    <td class="tg-c3ow">351</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">RankTe</td>
+    <td class="tg-c3ow">CNNDM </td>
+    <td class="tg-c3ow">52.5</td>
+    <td class="tg-c3ow">3</td>
+    <td class="tg-c3ow">1072</td>
+    <td class="tg-c3ow">1646</td>
+    <td class="tg-c3ow">1310</td>
+    <td class="tg-c3ow">767</td>
+    <td class="tg-c3ow">540</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">FaithFact</td>
+    <td class="tg-c3ow">XSum</td>
+    <td class="tg-c3ow">99.2</td>
+    <td class="tg-c3ow">5</td>
+    <td class="tg-c3ow">2332</td>
+    <td class="tg-c3ow">363</td>
+    <td class="tg-c3ow">94</td>
+    <td class="tg-c3ow">114</td>
+    <td class="tg-c3ow">118</td>
+  </tr>
+</tbody>
+</table>
 
 
 Every adversarial transformation can be performed on the six base evaluation datasets, thus results in 24 diagnostic evaluation set. All base evaluation datasets and diagnostic evaluation sets can be found [here](https://drive.google.com/drive/u/1/folders/1inYZnSkxj1JfgHHpR2OjfNXpT-SFc24p).

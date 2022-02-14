@@ -142,7 +142,8 @@ def pos_transform(tokens, spacy_claim, reorder):
 
 def span_change(datas, save_dir, reorder=True):
     nlp = spacy.load('en_core_web_sm')
-    nlp.add_pipe(BeneparComponent('benepar_en'))
+#     nlp.add_pipe(BeneparComponent('benepar_en'))
+    nlp.add_pipe('benepar', config={'model': 'benepar_en3'})
 
     if reorder:
         tmp_dir = os.path.join(save_dir, "pos.span_lack_and_reorder")
